@@ -21,12 +21,12 @@ jobs:
       with:
         environment-url: 'https://org7bb4194e.crm.dynamics.com'
         user-name: 'admin@CRM921786.onmicrosoft.com'
-        password-secret: '6Ctc7b7p0O'
+        password-secret: ${{ secrets.password }}
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
-        environment-url: 'org7bb4194e.crm.dynamics.com'
+        environment-url: 'https://org7bb4194e.crm.dynamics.com'
         user-name: 'admin@CRM921786.onmicrosoft.com'
         password-secret: ${{ secrets.password }}
         solution-name: ALMLab
