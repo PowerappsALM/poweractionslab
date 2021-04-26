@@ -55,6 +55,7 @@ jobs:
   release-to-staging:
     needs: [ convert-to-managed ]
     runs-on: windows-latest
+    timeout-minutes: 30
     env:
       RUNNER_DEBUG: 1
 
