@@ -21,7 +21,7 @@ jobs:
       with:
         environment-url: 'org7bb4194e.crm.dynamics.com'
         user-name: 'admin@CRM921786.onmicrosoft.com'
-        password-secret: ${{ secrets.password }}
+        password-secret: '6Ctc7b7p0O'
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
