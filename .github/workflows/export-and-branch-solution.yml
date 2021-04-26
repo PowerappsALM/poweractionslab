@@ -19,7 +19,7 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: 'org7bb4194e.crm.dynamics.com'
+        environment-url: 'https://org7bb4194e.crm.dynamics.com'
         user-name: 'admin@CRM921786.onmicrosoft.com'
         password-secret: '6Ctc7b7p0O'
 
