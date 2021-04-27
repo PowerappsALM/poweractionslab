@@ -80,6 +80,7 @@
     <RootComponents>
       <RootComponent type="1" schemaName="almlab_timeoffrequest" behavior="0" />
       <RootComponent type="300" schemaName="almlab_myapp_5db94" behavior="0" />
+      <RootComponent type="300" schemaName="almlab_schedularapp_a8850" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
