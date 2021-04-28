@@ -52,7 +52,7 @@ jobs:
         name: managedSolutions
         path: out/ship/ALMLab.zip
 
-  release-to-staging:
+  release-to-prod:
     needs: [ convert-to-managed ]
     runs-on: windows-latest
     env:
