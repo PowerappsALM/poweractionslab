@@ -11,6 +11,7 @@ on:
 jobs:
   convert-to-managed:
     runs-on: windows-latest
+    timeout-minutes: 5
     env:
       RUNNER_DEBUG: 1
 
