@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>almlab_schedularapp_a8850</Name>
-  <AppVersion>2021-04-28T18:02:43Z</AppVersion>
+  <AppVersion>2021-06-09T08:16:35Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.21041.29.0</CreatedByClientVersion>
-  <MinClientVersion>3.21041.29.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"604fd09e-80b6-4ee2-a820-48dfb2c81ee2","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.21041.29","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.21053.21.0</CreatedByClientVersion>
+  <MinClientVersion>3.21053.21.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"51ccb63c-873c-4ca0-a5a5-77977ed16575","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.21053.21","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
@@ -15,7 +15,7 @@
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
   <ConnectionReferences>{}</ConnectionReferences>
-  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Sales Projects":{"entitySetName":"almlab_salesprojects","logicalName":"almlab_salesproject"}}}}</DatabaseReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Sales Projects":{"entitySetName":"almlab_salesprojects","logicalName":"almlab_salesproject"}}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
   <CanConsumeAppPass>1</CanConsumeAppPass>
