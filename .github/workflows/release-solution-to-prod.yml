@@ -29,7 +29,7 @@ jobs:
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
-        environment-url: 'https://CRMbuild921786.crm.dynamics.com'
+        environment-url: 'https://buildorg40fae6e8.crm.dynamics.com'
         user-name: 'admin@CRM921786.onmicrosoft.com'
         password-secret: ${{ secrets.password }}
         solution-file: out/solutions/ALMLab.zip
