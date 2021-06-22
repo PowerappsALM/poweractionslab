@@ -29,6 +29,7 @@ jobs:
 
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v0
+      timeout-minutes: 5
       with:
         environment-url: 'https://buildorg40fae6e8.crm.dynamics.com'
         user-name: 'admin@CRM921786.onmicrosoft.com'
